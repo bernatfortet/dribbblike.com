@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lange="en">
+  <head>
+    <!--Tech Meta-->
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=7">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Basic Meta-->
+    <title>WebsiteApp Title</title>
+    <meta name="description" content="WebsitApp Description">
+    <meta name="keywords" content="Keyword1, keyword 2">
+    <!--Facebook Meta-->
+    <meta property="og:title" content="WebsiteApp">
+    <meta property="og:site_name" content="WebsiteApp">
+    <meta property="og:description" content="Website App Description">
+    <meta property="og:image" content="http://imageUrl.jpg">
+    <meta property="og:url" content="http://websiteAppURL.com">
+    <meta property="og:type" content="website">
+    <!--Favicon-->
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    <!--Css-->
+    <link rel="stylesheet" type="text/css" media="screen" href="css/style.css">
+    <!--App Javascript-->
+    <script data-main="app/main.js" src="app/libs/require-jquery.min.js"></script>
+    <!--Other Javascript-->
+    <script src="app/libs/ga.js"></script>
+    <!--RSS TODO-->
+  </head>
+  <body class="home">
+    <div id="Wallbbble">
+      <div id="Views"><script type="text/x-jquery-tmpl" id="ShotView">
+        <div class="shot Shot"><img src="${image_teaser_url}"></div></script>
+      </div>
+      <div class="loader"></div>
+      <div class="header">
+        <div class="logo">logo here</div>
+      </div>
+      <div id="Shots" class="shots"></div>
+    </div>
+  </body>
+</html>
